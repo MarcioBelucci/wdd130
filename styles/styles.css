@@ -1,20 +1,28 @@
+:root {
+    --color-primary: darkblue;
+    --shadow-standard: 0 0 30px gray;
+    --border-width: 1px solid;
+    --spacing-standard: 1rem;
+    --image-width-standard: 150px;
+}
+
 main {
     max-width: 840px;
 }
 
 main img {
-    width: 150px;
+    width: var(--image-width-standard);
     height: auto;
-    border: 1px solid steelblue;
+    border: var(--border-width, steelblue);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--shadow-standard);
 }
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
+    margin: var(--spacing-standard);
+    border: var(--border-width, rgb(0 0 0 / 0.2));
+    padding: var(--spacing-standard);
     background-color: #eee;
     color: #333;
     text-align: center;
@@ -27,12 +35,12 @@ aside img {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: var(--border-width, #000);
     text-align: center;
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--color-primary);
     padding: 10px;
 }
 
@@ -43,15 +51,15 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--color-primary);
 }
 
 img {
-    width: 150px;
+    width: var(--image-width-standard);
     height: auto;
-    border: 1px solid black;
+    border: var(--border-width, black);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--shadow-standard);
 }
 
 p {
