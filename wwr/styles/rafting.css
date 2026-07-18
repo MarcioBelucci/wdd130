@@ -2,7 +2,7 @@
     --primary-color: royalblue;
     --secondary-color: darkolivegreen;
     --accent1-color: darkblue;
-    --accent2-color: wheat;
+    --accent2-color: black;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -23,6 +23,14 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+footer p {
+    color: var(--secondary-color);
+}
+
+.hero p {
+    text-align: center;
 }
 
 h1,
@@ -58,10 +66,6 @@ article {
     height: auto;
 }
 
-.hero p {
-    text-align: center;
-}
-
 h1 {
     position: absolute;
     top: 20px;
@@ -73,7 +77,7 @@ h1 {
     color: white;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 10px;
     width: 96%;
@@ -102,4 +106,8 @@ section h2 {
     text-align: center;
     background-color: var(--accent1-color);
     color: white;
+}
+
+section p {
+    color: var(--accent2-color);
 }
