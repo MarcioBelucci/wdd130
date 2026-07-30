@@ -109,3 +109,9 @@ footer {
 .column2 {
     grid-template-columns: 1fr 2fr;
 }
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.2em;
+}
