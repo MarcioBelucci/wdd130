@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="The contact page of White Water Rafting company, this webpage includes the main way to communicate with the company. ">
+    <meta name="author" content="Marcio Augusto De Carvalho Belucci">
+    <title>Contact Us - Splash White Water Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/splash-logo.jpg" alt="The Splash White Water Rafting company logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="company-info">
+            <h1>Splash White Water Rafting</h1>
+            <address>
+                <p>123 Main River Street</p>
+                <p>Kolob, California</p>
+                <p>Phone: +1 999 999 9999</p>
+                <p>Email: info@splashrafting.com</p>
+            </address>
+        </div>
+        <div class="contact-content">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263811.324084933!2d-124.66327645396866!3d36.97839575763518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e402563ff7b33%3A0x5912c5ee33d84140!2s123%20River%20St%2C%20Santa%20Cruz%2C%20CA%2095060%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1785940898190!5m2!1spt-BR!2sbr"
+              width="600" height="450" allowfullscreen="" loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <form action="" class="contact-form">
+                <div class="form-item">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-item radio-group">
+                    <p>Purpose of the Message:</p>
+
+                    <input type="radio" id="general" name="purpose" value="general">
+                    <label for="general">General Inquiry</label><br>
+
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label><br>
+
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+                <div class="form-item">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" rows="3"
+                      placeholder="Type here..."></textarea>
+                </div>
+                <div class="form-item checkbox">
+                    <label for="checkbox">Please Subscribe me to monthyly newsletter</label>
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                </div>
+                <button type="submit">Get in Touch!</button>
+
+            </form>
+        </div>
+
+        <section class="employees">
+            <h2>We Are Here To Serve You</h2>
+            <div class="employees-gallery">
+                <figure>
+                    <img src="images/manager.jpg" alt="Manager Luiza Smith">
+                    <figcaption>Luiza Smith - Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/seller.jpg" alt="Seller James Hensen">
+                    <figcaption>James Hensen - Seller</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/customer-service.jpg" alt="Customer Service Havana Taylor">
+                    <figcaption>Havana Taylor - Customer Service</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©2026 ❖ Splash White Water Rafting ❖ Marcio Augusto De Carvalho Belucci</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
