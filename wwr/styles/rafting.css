@@ -385,6 +385,18 @@ footer {
 
 }
 
+.newsletter {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.newsletter h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
+
 .cta-button {
     display: block;
     margin: 0 auto;
@@ -403,4 +415,38 @@ footer {
 
 .cta-button:hover {
     background-color: var(--accent1-color);
+}
+
+.principles-grid figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+    align-items: center;
+}
+
+.principles-grid figcaption {
+    margin-top: 20px;
+    color: var(--accent2-color);
+    text-align: center;
+}
+
+.principles-grid figcaption h3 {
+    font-size: 20px;
+}
+
+.principles-grid figure img {
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.principles-grid figure.reverse img {
+    order: 2;
+}
+
+.principles-grid figure.reverse figcaption {
+    order: 1;
 }
